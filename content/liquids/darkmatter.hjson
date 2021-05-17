@@ -1,0 +1,9 @@
+name: Dark Matter
+description: Pure Mysterious energy
+temperature: 100
+flammability: 0
+heatCapacity: 0
+explosiveness: 0
+viscosity: 0.7
+color: "000000"
+research: slag

@@ -1,0 +1,27 @@
+type: drill
+name: Ultimatium Drill
+description: A huge drilling rig that heats the drill head with hot magma and electricity, thus increasing the speed and efficiency of drilling.
+size: 9
+health: 10000
+hasLiquids:true
+liquidCapacity: 20
+tier: 8
+hasLiquids: true
+rotateSpeed: 9
+drawRim: true
+drillTime: 1
+consumes: {
+power: 5.8
+	liquid: {
+	   liquid: darkmatter
+	   amount: 0.2
+	}
+}
+requirements: [
+	ultimatium/290
+	titanium/400
+	silicon/300
+	plastanium/120
+]
+category: production
+research: slag

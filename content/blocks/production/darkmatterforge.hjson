@@ -1,0 +1,28 @@
+type: genericSmelter
+name: Dark Matter Forge
+description: Creates liquid Dark Matter 
+health: 500
+size: 2
+consumes: {
+ power: 3
+ liquid: slag/0.1
+ items: {
+  items: [
+   silicon/1
+  ]
+ }
+}
+outputLiquid: darkmatter/8
+requirements: [
+plastanium/200
+thorium/200
+titanium/100
+metaglass/130
+ultimatium/190
+]
+category: crafting
+updateEffect: purify 
+updateEffectChance: 0.02
+outputLiquid: darkmatter/16
+research: slag
+
