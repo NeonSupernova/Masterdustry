@@ -26,18 +26,3 @@ electroSapBullet.lightningCone = 12;//рандомизация угла напр
 electroSapBullet.largeHit = true;
 electroSapBullet.lightColor = electroSapBullet.lightningColor = Color.valueOf("fbff9e");
 
-const synaps = extendContent(ItemTurret, "synaps", {});
-synaps.health = 1260;
-synaps.size = 2;
-synaps.hasItems = true;
-synaps.hasLiquids = true;
-synaps.localizedName = "Synaps";
-synaps.description = "Electrical Sap turret, can shoot a sap bullet with mane ligthnings.";
-synaps.buildVisibility = BuildVisibility.shown;
-//synaps.requirements = ItemStack.with(Items.titanium, 200, Items.lead, 250, Items.silicon, 350, Vars.content.getByName(ContentType.item,"braindustry-odinum"), 150);
-//synaps.consumes.items(new ItemStack(Vars.content.getByName(ContentType.item,"braindustry-exotic-alloy"), 150));
-synaps.category = Category.turret;
-synaps.shootType = electroSapBullet
-synaps.ammo(
-    Items.plastanium, electroSapBullet, 
-);

@@ -1,0 +1,47 @@
+name: Dreadnaut 
+description: Heavy Duty Railgun
+type: itemTurret
+size: 2
+health: 850
+maxAmmo: 450
+ammoPerShot: 75
+reloadTime: 225
+range: 10000
+targetAir: true
+targetGround: true
+recoilAmount: 3
+shootShake: 12
+hitShake: 5
+inaccuracy: 0
+restitution: 0.01
+rotateSpeed: 2
+shootSound: electronShoot
+ammoTypes: {
+  plasma: {
+    type: electroSapBullet
+    damage: 10000
+    length: 1000
+    width: 20
+    ammoMultiplier: 3
+    pierce: true
+    collidesTiles: false
+    pierceEffect: railHit
+    updateEffect: railTrail
+    hitEffect: massiveExplosion
+    shootEffect: railShoot
+    smokeEffect: hitFuse
+    pierceDamageFactor: 0.5
+    }
+   }
+consumes: {
+    power: 8
+    }
+requirements: [
+    thorium/2000
+    ultimatium/1500
+    silicon/1500
+    surge-alloy/1200
+    metaglass/1500
+    ]
+category: turret
+research: duo

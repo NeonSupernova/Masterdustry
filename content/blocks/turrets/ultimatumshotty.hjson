@@ -3,12 +3,12 @@ description: A huge, powerful rocket launcher. Works like a shotgun. May be a be
 type: itemTurret
 range: 280
 recoil: 18
-reloadTime: 60
+reloadTime: 1
 size: 4
 shots: 20
 health: 1400
 inaccuracy: 0.4
-liquidBoostIntensity: 2.0
+liquidBoostIntensity: 10.0
 rotatespeed: 2
 targetAir: true
 targetGround: true
