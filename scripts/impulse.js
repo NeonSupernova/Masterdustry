@@ -29,7 +29,7 @@ electroBasicBullet2.lightningAngle = 5;
 electroBasicBullet2.lightningCone = 20; 
 electroBasicBullet2.lightningColor = Color.valueOf("f1fc58");
 
-const electricArc = extendContent(ItemTurret, "impulse", {});
+const electricArc = extendContent(ItemTurret, "dreadnaut", {});
 electricArc.health = 840;
 electricArc.size = 1;
 electricArc.rotateSpeed = 1.8;
