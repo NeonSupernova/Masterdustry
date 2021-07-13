@@ -17,21 +17,7 @@ restitution: 0.01
 rotateSpeed: 2
 shootSound: electronShoot
 ammoTypes: {
-  plasma: {
-    type: electroSapBullet
-    damage: 10000
-    length: 1000
-    width: 20
-    ammoMultiplier: 3
-    pierce: true
-    collidesTiles: false
-    pierceEffect: railHit
-    updateEffect: railTrail
-    hitEffect: massiveExplosion
-    shootEffect: railShoot
-    smokeEffect: hitFuse
-    pierceDamageFactor: 0.5
-    }
+  plasma: electroSapBullet
    }
 consumes: {
     power: 8
