@@ -45,10 +45,10 @@ ammoTypes: {
         }
            }
 consumes: {
-    power: 450
+    power: 20
     liquid: {
          liquid: darkmatter
-         amount: 10
+         amount: 0.5
          booster: false
          optional: false
       }
