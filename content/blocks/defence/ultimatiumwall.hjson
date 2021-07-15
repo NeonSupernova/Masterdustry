@@ -1,0 +1,17 @@
+type: Wall
+name: Ultimatium Wall
+description: A wall made of ultimatium, anti laser and bullet
+health: 5000
+size: 1
+baseExplosiveness: 20
+chanceDeflect: 75
+lightningChance: 75
+lightningDamage: 100
+insulated: true
+absorbLasers: true
+flashHit: true
+requirements: [
+    ultimatium/10
+]
+category: defense
+resarch: surge-wall

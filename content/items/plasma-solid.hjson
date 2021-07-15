@@ -1,9 +1,9 @@
 type: Item
 name: Plasma
-description: Is it a liquid or solid
+description: Solid state of plasma
 cost: 4
 flammability: 0
 explosiveness: 0
 radioactivity: 0.01
-color: f6bfff
+color: ff9813
 research: plastanium

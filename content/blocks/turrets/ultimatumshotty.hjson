@@ -5,7 +5,8 @@ range: 280
 recoil: 18
 reloadTime: 1
 size: 4
-shots: 20
+shots: 10
+alternate: true
 health: 1400
 inaccuracy: 0.4
 liquidBoostIntensity: 10.0
@@ -17,14 +18,14 @@ coolantMultiplier: 3
 buildingDamageMultiplier: 0.25
 ammoTypes: {
   plastanium: missileSurge
-  plasma: missileIncendiary
+  plasma-solid: missileIncendiary
   ultimatium: missileExplosive
 }
 consumes: {
  liquid: {
   liquid: darkmatter
   amount: 0.1
-  booster: true
+  booster: false
   optional: false
   }
 }

@@ -1,14 +1,14 @@
 type: ItemTurret
 name: Dreadnaut 
 description: Heavy Duty Railgun
-type: itemTurret
 size: 2
 health: 850
 maxAmmo: 450
 ammoPerShot: 75
+shots: 1
 reloadTime: 125
-range: 1000
-alternate: true
+range: 750
+alternate: false
 targetAir: true
 targetGround: true
 recoilAmount: 3
@@ -19,17 +19,17 @@ hitShake: 5
 inaccuracy: 0
 restitution: 0.01
 rotateSpeed: 2
-liquidBoostIntensity: 1000.0
+liquidBoostIntensity: 100.0
 smokeEffect: smokeCloud
 trailEffect: instTrail
 despawnEffect: instBomb
 ammoTypes: {
-    plasma: {
+    plasma-solid: {
         type: RailBulletType
-        damage: 1000
-        length: 1100
+        damage: 750
+        length: 760
         pierceDamageFactor: 0.5
-        buildingDamageMultiplier: 0.25
+        buildingDamageMultiplier: 0.125
         updateEffect: {
             type: ParticleEffect
             lifetime: 35
@@ -45,12 +45,12 @@ ammoTypes: {
         }
            }
 consumes: {
-    power: 8
+    power: 450
     liquid: {
          liquid: darkmatter
          amount: 10
-         booster: true
-         optional: true
+         booster: false
+         optional: false
       }
     }
 requirements: [

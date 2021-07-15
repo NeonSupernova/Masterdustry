@@ -1,9 +1,10 @@
 name: Dark Matter
-description: Pure Mysterious energy
-temperature: 100
+description: Impure Mysterious energy
+temperature: 0.01
 flammability: 0
-heatCapacity: 0
+effect: freezing
+heatCapacity: 0.01
 explosiveness: 0
 viscosity: 0.7
-color: "000000"
+color: "0b072c"
 research: slag
