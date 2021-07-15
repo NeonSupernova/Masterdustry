@@ -6,7 +6,7 @@ recoil: 18
 reloadTime: 1
 size: 4
 shots: 10
-alternate: true
+alternate: false
 health: 1400
 inaccuracy: 0.4
 liquidBoostIntensity: 10.0
