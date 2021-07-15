@@ -1,3 +1,4 @@
 type: OreBlock
 itemDrop: ultimatium
 oreScale: 25.380953
+variants: 3
