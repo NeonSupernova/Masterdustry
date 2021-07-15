@@ -55,7 +55,7 @@ consumes: {
     }
 requirements: [
     thorium/2000
-    ultimatium/1500
+    ultimatiumitem/1500
     silicon/1500
     surge-alloy/1200
     metaglass/1500

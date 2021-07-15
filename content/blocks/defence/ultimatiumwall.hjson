@@ -11,7 +11,7 @@ insulated: true
 absorbLasers: true
 flashHit: true
 requirements: [
-    ultimatium/10
+    ultimatiumitem/10
 ]
 category: defense
 resarch: surge-wall

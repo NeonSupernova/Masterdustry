@@ -18,7 +18,7 @@ plastanium/200
 thorium/200
 titanium/100
 metaglass/130
-ultimatium/190
+ultimatiumitem/190
 ]
 category: crafting
 updateEffect: purify 

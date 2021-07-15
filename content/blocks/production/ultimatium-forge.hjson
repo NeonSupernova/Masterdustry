@@ -27,4 +27,4 @@ requirements: [
 ]
 category: crafting
 research: slag
-outputItem: ultimatium/1
+outputItem: ultimatiumitem/1

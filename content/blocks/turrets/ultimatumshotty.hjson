@@ -19,7 +19,7 @@ buildingDamageMultiplier: 0.25
 ammoTypes: {
   plastanium: missileSurge
   plasma-solid: missileIncendiary
-  ultimatium: missileExplosive
+  ultimatiumitem: missileExplosive
 }
 consumes: {
  liquid: {
@@ -30,7 +30,7 @@ consumes: {
   }
 }
 requirements: [
-  ultimatium/500
+  ultimatiumitem/500
   plastanium/250
   silicon/500
   phase-fabric/360

@@ -18,7 +18,7 @@ power: 5.8
 	}
 }
 requirements: [
-	ultimatium/290
+	ultimatiumitem/290
 	titanium/400
 	silicon/300
 	plastanium/120
