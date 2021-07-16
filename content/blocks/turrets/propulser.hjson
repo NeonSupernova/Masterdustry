@@ -1,4 +1,6 @@
 type: LiquidTurret
+name: Propulser
+description: better tsunami
 health: 15000
 rotateSpeed: 5
 targetAir: true
