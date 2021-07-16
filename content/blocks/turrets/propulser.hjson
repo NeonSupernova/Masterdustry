@@ -20,7 +20,7 @@ ammoTypes: {
         type: liquidBulletType
         liquid: water
         lifet:ime: 100
-        speed 8
+        speed: 8
         knockback: 17.5
         puddleSize: 16
         orbSize: 6
