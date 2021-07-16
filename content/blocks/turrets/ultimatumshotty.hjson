@@ -12,6 +12,7 @@ inaccuracy: 0.4
 liquidBoostIntensity: 10.0
 rotatespeed: 2
 shootCone: 15
+spread: 20
 targetAir: true
 targetGround: true
 coolantMultiplier: 3
