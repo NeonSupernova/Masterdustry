@@ -1,113 +1,122 @@
-type: LiquidTurret
-name: Propulser
-description: better tsunami
-health: 15000
-rotateSpeed: 5
-targetAir: true
-targetGround: true
-size: 3
-range: 300
-reloadTime: 1
-shootCone:5
-ammoUseEffect: none
-shootEffect: shootLiquid
-rotateSpeed: 10
-recoilAmount: 0
-shots: 2
-alternate: true
-inaccuracy: 10
-spread: 16
-ammoTypes: {
-    water: {
-        type: liquidBulletType
-        liquid: water
-        lifet:ime: 100
-        speed: 8
-        knockback: 17.5
-        puddleSize: 16
-        orbSize: 6
-        drag: 0.002
-        ammoMultiplier: 4
-        statusDuration: 12
-        damage: 125
-        status: wet
+{
+  type: LiquidTurret
+  name: Propulser
+  description: better tsunami
+  health: 15000
+  rotateSpeed: 10
+  targetAir: true
+  targetGround: true
+  size: 3
+  range: 500
+  reloadTime: 1
+  shootCone: 15
+  ammoUseEffect: none
+  shootEffect: shootLiquid
+  recoilAmount: 0
+  shots: 2
+  alternate: true
+  inaccuracy: 10
+  spread: 16
+  ammoTypes:
+  {
+    water:
+    {
+      type: liquidBulletType
+      liquid: water
+      lifet: ime: 100
+      speed: 8
+      knockback: 17.5
+      puddleSize: 16
+      orbSize: 6
+      drag: 0.002
+      ammoMultiplier: 4
+      statusDuration: 12
+      damage: 125
+      status: wet
     }
-    slag: {
-        type: liquidBulletType
-        liquid: slag
-        lifetime: 100
-        speed: 8
-        knockback: 17.5
-        puddleSize: 16
-        orbSize: 6
-        drag: 0.002
-        ammoMultiplier: 4
-        statusDuration: 12
-        damage: 2250
-        status: melting
+    slag:
+    {
+      type: liquidBulletType
+      liquid: slag
+      lifetime: 100
+      speed: 8
+      knockback: 17.5
+      puddleSize: 16
+      orbSize: 6
+      drag: 0.002
+      ammoMultiplier: 4
+      statusDuration: 12
+      damage: 2250
+      status: melting
     }
-    oil: {
-        type: liquidBulletType
-        liquid: oil
-        lifetime: 100
-        speed: 8
-        knockback: 3
-        puddleSize: 16
-        orbSize: 6
-        drag: 0.002
-        ammoMultiplier: 4
-        statusDuration: 12
-        damage: 1255
-        status: tarred 
+    oil:
+    {
+      type: liquidBulletType
+      liquid: oil
+      lifetime: 100
+      speed: 8
+      knockback: 3
+      puddleSize: 16
+      orbSize: 6
+      drag: 0.002
+      ammoMultiplier: 4
+      statusDuration: 12
+      damage: 1255
+      status: tarred
     }
-    cryofluid: {
-        type: liquidBulletType
-        liquid: cryofluid
-        lifetime: 100
-        speed: 8
-        knockback: 4
-        puddleSize: 16
-        orbSize: 6
-        drag: 0.002
-        ammoMultiplier: 4
-        statusDuration: 12
-        damage: 2240
-        status: freezing
+    cryofluid:
+    {
+      type: liquidBulletType
+      liquid: cryofluid
+      lifetime: 100
+      speed: 8
+      knockback: 4
+      puddleSize: 16
+      orbSize: 6
+      drag: 0.002
+      ammoMultiplier: 4
+      statusDuration: 12
+      damage: 2240
+      status: freezing
     }
-    plasma-liquid: {
-        type: liquidBulletType
-        liquid: plasma-liquid
-        lifetime: 100
-        speed: 8
-        knockback: 17.5
-        puddleSize: 24
-        orbSize: 8
-        drag: 0.002
-        ammoMultiplier: 4
-        statusDuration: 180
-        status: melting
-        damage: 2500
+    plasma-liquid:
+    {
+      type: liquidBulletType
+      liquid: plasma-liquid
+      lifetime: 100
+      speed: 8
+      knockback: 17.5
+      puddleSize: 24
+      orbSize: 8
+      drag: 0.002
+      ammoMultiplier: 4
+      statusDuration: 180
+      status: melting
+      damage: 2500
     }
-    darkmatter: {
-        type: liquidBulletType
-        liquid: darkmatter
-        lifetime: 100
-        speed: 8
-        knockback: 2
-        puddleSize: 16
-        orbSize: 6
-        drag: 0.002
-        ammoMultiplier: 4
-        statusDuration: 120
-        damage: 1500
-        status: freezing
+    darkmatter:
+    {
+      type: liquidBulletType
+      liquid: darkmatter
+      lifetime: 100
+      speed: 8
+      knockback: 2
+      puddleSize: 16
+      orbSize: 6
+      drag: 0.002
+      ammoMultiplier: 4
+      statusDuration: 120
+      damage: 1500
+      status: freezing
     }
+  }
+  category: turret
+  research: tsunami
+  requirements:
+  [
+    ultimatiumitem/50
+    plastanium/25
+    silicon/50
+    phase-fabric/36
+  ]
 }
-catagory: turret
-research: tsunami
-requirements: [
-  ultimatiumitem/50
-  plastanium/25
-  silicon/50
-  phase-fabric/36
-]

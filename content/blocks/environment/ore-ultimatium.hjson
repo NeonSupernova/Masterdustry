@@ -1,5 +1,0 @@
-type: OreBlock
-itemDrop: ultimatiumitem
-oreScale: 25.380953
-variants: 3
-playerUnmineable: true

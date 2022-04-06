@@ -1,0 +1,89 @@
+.
+├── LICENSE
+├── README.md
+├── bundles
+│   └── bundle_es.properties
+├── content
+│   ├── blocks
+│   │   ├── defense
+│   │   │   ├── ultimatiumwall.hjson
+│   │   │   └── voidwall.hjson
+│   │   ├── distribution
+│   │   │   └── ulticonv.hjson
+│   │   ├── environment
+│   │   │   └── ore-ultimatum.hjson
+│   │   ├── production
+│   │   │   ├── darkmatterforge.hjson
+│   │   │   ├── molecular-forge.hjson
+│   │   │   ├── ultimatium-drill.hjson
+│   │   │   └── ultimatium-forge.hjson
+│   │   └── turrets
+│   │       ├── dreadnaut.hjson
+│   │       ├── propulser.hjson
+│   │       └── ulti.hjson
+│   ├── items
+│   │   ├── plasma-solid.hjson
+│   │   └── ultimatiumitem.hjson
+│   └── liquids
+│       ├── darkmatter.hjson
+│       └── plasma-liquid.hjson
+├── icon.png
+├── mod.hjson
+├── scripts
+│   ├── Ultimatum.js
+│   ├── effects.js
+│   ├── impulse.js
+│   ├── mod.js
+│   └── plasmafx.js
+├── sounds
+│   ├── electronCharge.ogg
+│   └── electronShoot.ogg
+├── sprites
+│   ├── blocks
+│   │   ├── conveyors
+│   │   │   ├── ulticonv-0-0.png
+│   │   │   ├── ulticonv-0-1.png
+│   │   │   ├── ulticonv-0-2.png
+│   │   │   ├── ulticonv-0-3.png
+│   │   │   ├── ulticonv-1-0.png
+│   │   │   ├── ulticonv-1-1.png
+│   │   │   ├── ulticonv-1-2.png
+│   │   │   ├── ulticonv-1-3.png
+│   │   │   ├── ulticonv-2-0.png
+│   │   │   ├── ulticonv-2-1.png
+│   │   │   ├── ulticonv-2-2.png
+│   │   │   ├── ulticonv-2-3.png
+│   │   │   ├── ulticonv-3-0.png
+│   │   │   ├── ulticonv-3-1.png
+│   │   │   ├── ulticonv-3-2.png
+│   │   │   ├── ulticonv-3-3.png
+│   │   │   ├── ulticonv-4-0.png
+│   │   │   ├── ulticonv-4-1.png
+│   │   │   ├── ulticonv-4-2.png
+│   │   │   ├── ulticonv-4-3.png
+│   │   │   └── ulticonv-icon.png
+│   │   ├── environment
+│   │   │   └── ore
+│   │   │       ├── ore-ultimatum1.png
+│   │   │       ├── ore-ultimatum2.png
+│   │   │       └── ore-ultimatum3.png
+│   │   ├── production
+│   │   │   ├── darkmatterforge.png
+│   │   │   └── ultimatium-drill.png
+│   │   ├── turrets
+│   │   │   ├── dreadnaut.png
+│   │   │   ├── propulser.png
+│   │   │   ├── ulti-heat.png
+│   │   │   └── ulti.png
+│   │   └── walls
+│   │       └── ultimatiumwall.png
+│   ├── items
+│   │   ├── plasma-solid.png
+│   │   └── ultimatiumitem.png
+│   └── liquids
+│       ├── darkmatter.png
+│       └── plasma-liquid.png
+├── sprites-override
+└── tree.txt
+
+23 directories, 63 files

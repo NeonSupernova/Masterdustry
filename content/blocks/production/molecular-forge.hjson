@@ -1,22 +1,15 @@
 {
   type: genericSmelter
-  name: Dark Matter Forge
-  description: Creates liquid Dark Matter
+  name: Molecular Forge
+  description: Creates converts Liquids to solids
   health: 500
   size: 2
   consumes:
   {
     power: 3
-    liquid: slag/0.1
-    items:
-    {
-      items:
-      [
-        silicon/1
-      ]
-    }
+    liquid: plasma-liquid/5
   }
-  outputLiquid: darkmatter/16
+  outputItem: plasma-solid/2
   requirements:
   [
     plastanium/200

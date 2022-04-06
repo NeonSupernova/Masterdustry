@@ -1,9 +1,11 @@
-type: Item
-name: Plasma
-description: Solid state of plasma
-cost: 4
-flammability: 0
-explosiveness: 0
-radioactivity: 0.01
-color: ff9813
-research: plastanium
+{
+  type: Item
+  name: Plasma
+  description: Solid state of plasma
+  cost: 4
+  flammability: 0
+  explosiveness: 0
+  radioactivity: 0.01
+  color: ff9813
+  research: plastanium
+}

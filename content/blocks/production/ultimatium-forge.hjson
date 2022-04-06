@@ -1,30 +1,36 @@
-type: GenericSmelter
-name: Ultimatium Forge
-description: This forge can smelt a Ultimatium from Metaglass and Titanium.
-health: 220
-liquidCapacity: 0
-size: 3
-hasPower: true
-hasLiquids: false
-hasItems: true
-craftTime: 90
-updateEffect: plasticburn
-consumes: {
-  power: 2.5
-    items:{
-     items:[
-      metaglass/2
-      titanium/2
+{
+  type: GenericSmelter
+  name: Ultimatium Forge
+  description: This forge can smelt a Ultimatium from Metaglass and Titanium.
+  health: 220
+  liquidCapacity: 0
+  size: 3
+  hasPower: true
+  hasLiquids: false
+  hasItems: true
+  craftTime: 90
+  updateEffect: plasticburn
+  consumes:
+  {
+    power: 2.5
+    items:
+    {
+      items:
+      [
+        metaglass/2
+        titanium/2
       ]
-   }
+    }
+  }
+  requirements:
+  [
+    plastanium/80
+    titanium/100
+    metaglass/120
+    silicon/200
+    thorium/200
+  ]
+  category: crafting
+  research: slag
+  outputItem: ultimatiumitem/1
 }
-requirements: [
-  plastanium/80
-  titanium/100
-  metaglass/120
-  silicon/200
-  thorium/200
-]
-category: crafting
-research: slag
-outputItem: ultimatiumitem/1

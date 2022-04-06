@@ -1,0 +1,46 @@
+{
+  name: Ultimatum
+  description: A huge, powerful rocket launcher. Works like a shotgun. May be a better Ripple.
+  type: itemTurret
+  range: 280
+  recoil: 18
+  reloadTime: 7
+  size: 3
+  shots: 5
+  alternate: false
+  health: 1400
+  inaccuracy: 0.8
+  liquidBoostIntensity: 10
+  rotatespeed: 2
+  shootCone: 6
+  spread: 4
+  targetAir: false
+  targetGround: true
+  coolantMultiplier: 3
+  buildingDamageMultiplier: 0.25
+  ammoTypes:
+  {
+    plastanium: missileSurge
+    plasma-solid: missileIncendiary
+    ultimatiumitem: missileExplosive
+  }
+  consumes:
+  {
+    liquid:
+    {
+      liquid: darkmatter
+      amount: 0.1
+      booster: true
+      optional: false
+    }
+  }
+  requirements:
+  [
+    ultimatiumitem/500
+    plastanium/250
+    silicon/500
+    phase-fabric/360
+  ]
+  category: turret
+  research: swarmer
+}

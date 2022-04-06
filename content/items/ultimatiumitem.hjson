@@ -1,9 +1,11 @@
-type: Item
-name: Ultimatium
-description: Ultimate Material
-cost: 2
-flammability: 0
-explosiveness: 0
-radioactivity: 0
-color: 8b0be5
-research: copper
+{
+  type: Item
+  name: Ultimatium
+  description: Ultimate Material
+  cost: 2
+  flammability: 0
+  explosiveness: 0
+  radioactivity: 0
+  color: 8b0be5
+  research: copper
+}
